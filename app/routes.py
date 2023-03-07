@@ -13,10 +13,10 @@ def index():
         },
         {
             'author': {'username', 'John Stewart'},
-            'author': {'''In brightest day, in blackest night,
+            'body': '''In brightest day, in blackest night,
                         No evil shall escape my sight.
                         Let those who worship evil's might,
-                        Beware my power... Green Lantern's light! '''}
+                        Beware my power... Green Lantern's light! '''
         }
     ]
-    return render_template('index.html', title='Home', user=user, post=posts)
+    return render_template('index.html', title='Home', user=user, posts=posts)
