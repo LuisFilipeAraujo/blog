@@ -7,4 +7,3 @@ from app import app
 def index():
     user = {'username': 'Luis'}
     return render_template('index.html', title='Home', user=user)
-
